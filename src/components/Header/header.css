@@ -15,6 +15,11 @@ header{
     font-weight: bold;
 }
 
+.logo:hover{
+   color: brown;
+    transition: all 0.5s;
+}
+
 .favoritos{
     text-decoration: none;
     padding: 5px 14px;
@@ -22,4 +27,11 @@ header{
     background-color: #ffff;
     color: black;
     border-radius: 6px;
+}
+
+
+.favoritos:hover{
+    background-color: brown;
+    color: #fff;
+    transition: all 0.5s;
 }
